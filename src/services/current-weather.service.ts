@@ -40,9 +40,9 @@ export class CurrentWeatherService {
   get(coords : Coords){
     let args : string = `?lat=${coords.lat}&lon=${coords.lon}&appid=${environment.key}&units=metric`;
     let url = this.endpoint + args;
-    if(isDevMode()){
+/*     if(isDevMode()){
       url = 'assets/weather.json'
-    }
+    } */
 
     this.http.get(url).subscribe(this.weatherSubject) ;
  
