@@ -28,9 +28,8 @@
             "inlineStyleLanguage": "sass",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "assets/",
-              "assets/svg-weather"
+              "src/assets"
+               
             ],
             "styles": [
               "src/styles.sass"

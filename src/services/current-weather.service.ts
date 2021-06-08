@@ -32,8 +32,8 @@ export class CurrentWeatherService {
 
 
     this.get({
-      lat: -34.861580,
-      lon: -58.393750
+      lat: -34.581779,
+      lon: -58.421320
     });
   }
 
