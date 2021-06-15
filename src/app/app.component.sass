@@ -9,51 +9,41 @@ $main : #DB9001
     align-item: center
     justify-content: center
     text-align: center 
-
-
 p
     font-size: 2em
-    margin: 1em
+    margin: 10px auto
     color: $main
-
-
-.container-main
-    width: 100%
-    height: 100px
+    width: 80vw
+.background
+    position: sticky
+    top: 0
+    bottom: 500px
+.background img
+    width: 90vw
+    background: $light
+    display: inline-block
+.main
+    width: 100vw
     background: $light
     display: flex
     justify-content: space-between
     align-item: center
     justify-content: center
     text-align: center
-    padding: 0 5em
-    box-sizing: border-box
     position: sticky
-    top: 0
-    margin-bottom: 0
-    bottom: 850px
-    
-
-    
-
-
-.container
-    width: 100%
-    height: 100vh
+    bottom: 100vh
+.content
+    width: 100vw
     background: $light
     display: block
     justify-content: space-between
-    align-items: center
-    padding: 0 5rem
-    box-sizing: border-box
+    align-item: center
+    justify-content: center
+    text-align: center
     position: sticky
-    top: 0
-    
-    bottom: 500px
-    
 
-.conainer-fluid
-    width: 90%
-    position: fixed
-    top: 200px
-    
+@media screen and ( max-width: 800px )
+    p
+        font-size: 1em
+        margin: 0.8em auto
+        color: $main  
