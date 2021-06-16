@@ -11,7 +11,7 @@ export class WeatherIconComponent implements OnInit {
 
   @Input() set code(value : number){
     this._code = value;
-    this.icon = "hola";
+    this.icon = "sunset";
 
   if(this._code >= 200 && this._code <= 250) { 
     this.icon = "thunder"; 
