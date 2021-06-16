@@ -4,8 +4,8 @@ import { Subject, Observable, from } from 'rxjs';
 import {map} from 'rxjs/operators';
 
 import { environment } from '../environments/environment'; 
-import { Coords } from 'src/structure/coords.structure';
-import { Weather } from 'src/structure/weather.structure';
+import { Coords } from '../structure/coords.structure';
+import { Weather } from '../structure/weather.structure';
 
 @Injectable({
   providedIn: 'root'
